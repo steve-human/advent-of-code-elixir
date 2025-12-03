@@ -8,4 +8,10 @@ defmodule AdventTest.Day2_2 do
 
     assert Day2_2.sum_of_invalid_ids(input) == 4_174_379_265
   end
+
+  test "day 2 part 2 returns correct sum of invalid ids from input" do
+    input = Advent.Year2025.Input.Day2.get_input()
+
+    assert Day2_2.sum_of_invalid_ids(input) == 45_283_684_555
+  end
 end
